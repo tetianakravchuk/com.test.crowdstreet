@@ -4,7 +4,7 @@
 test is designed to test registration proccess. Happy path only. 
 
 
-## Methods of PaginationHelper:
+## Methods:
  1. clickOnCreateAccount(); - clicks on creation account button
  2. waitForPageLoad(); - waits. untill the page is loaded and first name text field is visible 
  3. checkURL(); - checks if URLs are correct
