@@ -20,8 +20,10 @@ public class Create {
         driver.get("chrome://settings/clearBrowserData");
         driver.findElement(By.xpath("//settings-ui")).sendKeys(Keys.ENTER);
         driver.manage().window().maximize();
-        driver.get("https://test.crowdstreet.com/invexp/properties/all");
+        driver.get(homeUrl);
+        wait = new WebDriverWait(driver, 20);
         homePage = new HomePage(driver, wait);
+
 
     }
 
