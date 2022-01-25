@@ -13,7 +13,7 @@ public class Create {
     HomePage homePage;
 
     @BeforeMethod
-    public void setUp(){
+    public void setUp() {
         System.setProperty("webdriver.chrome.driver", "/Users/tetianakravchuk/IdeaProjects/com.test.crowdstreet/chromedriver");
         driver = new ChromeDriver();
         driver.get(homeUrl);
@@ -23,8 +23,6 @@ public class Create {
         driver.get(homeUrl);
         wait = new WebDriverWait(driver, 20);
         homePage = new HomePage(driver, wait);
-
-
     }
 
     @AfterMethod
