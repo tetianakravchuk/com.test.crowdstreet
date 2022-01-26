@@ -10,4 +10,5 @@ public class Locators {
     public static final By CONFIRM_PASSWORD = By.xpath("//input[@id = 'confirmPassword']");
     public static final By AGREE = By.xpath("//input[@id = 'hasAgreedTos']");
     public static final By CAPTCHA = By.xpath("//iframe[@title='reCAPTCHA']");
+    public static final By CAPTCHA_CLICK = By.xpath("//label[@ class = 'rc-anchor-center-item rc-anchor-checkbox-label']");
 }

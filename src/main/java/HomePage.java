@@ -37,6 +37,7 @@ public class HomePage extends BaseAction {
 
     public void clickCaptcha() {
         driver.switchTo().frame(driver.findElement(Locators.CAPTCHA));
+        driver.findElement(Locators.CAPTCHA_CLICK).click();
     }
 }
 

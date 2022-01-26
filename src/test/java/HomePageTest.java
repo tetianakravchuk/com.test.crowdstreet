@@ -10,5 +10,6 @@ public class HomePageTest extends Create {
         homePage.fillOutTheForm();
         homePage.clickAgree();
         homePage.clickCaptcha();
+
     }
 }
